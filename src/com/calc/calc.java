@@ -6,7 +6,7 @@ public class calc {
     public static void main(){
         String oper="_";
         Scanner sc = new Scanner(System.in);
-        System.out.println("사칙연산\n형식: 첫번쩨수_연산자번호_두번째수\n예시:1+2을 입력하려면 1_+_2을 입력하세요");
+        System.out.println("사칙연산\n형식: 첫번쩨수_연산자번호_두번째수\n예시:1+2을 입력하려면 1_+_2을 입력하세요!!");
         String A = sc.nextLine();
         String[] Amp = A.split("_");
         double res = 0;
