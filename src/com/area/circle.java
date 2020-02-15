@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class circle {
     public static void r(){
-        System.out.println("반지름을 입력하세요.");
+        System.out.println("반지름을 입력하세요!!");
         Scanner sc = new Scanner(System.in);
         double r = sc.nextDouble();
         double area = r*r*Math.PI;
